@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div {
+			text-align: center;
+		}
+		input {
+			background-color: LightCyan;
+			border-color: LightCyan;
+			color: DarkGreen;
+			font-family: Georgia, serif;
+			font-size: 14px;
+			font-stretch: expanded;
+		}
+		#b {
+			padding-bottom: 5px;
+		}
+	</style>
+</head>
+<body style="background-color: SeaGreen;">
+	<div id='b'>
+		<input type="button" onclick="myFunction()" value="Restart" />
+	</div>
+
+	<div>
+        <canvas id='canvas' width='600', height='600'></canvas>
+    </div>
+
+    <script src="game_randoms.js"></script>
+    <script src="game_data.js"></script>
+    <script src="game_draw.js"></script>
+    <script src="game_wolfMove.js"></script>
+    <script src="game_rabbitMove.js"></script>
+    <script src="game_findWinner.js"></script>
+    <script src="game.js"></script>
+</body>
